@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        var student = { id:121, name: "Rakib", phone: 1923};
+        var student1 = { id:123, name: "Anik", phone: 1424};
+
+        var studentNo = student.phone;
+        // var studentNo = student["phone"];
+        student["name"] = "Sakib";
+        student1.phone = 12542;
+        console.log(student);
+        console.log(student1);
+        console.log(studentNo);
+
+    </script>
+</body>
+</html>
