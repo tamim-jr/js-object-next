@@ -10,11 +10,13 @@
     <script>
         var student = { id:121, name: "Rakib", phone: 1923};
         var student1 = { id:123, name: "Anik", phone: 1424};
-
+        var phoneProNam ="phone";
         var studentNo = student.phone;
         // var studentNo = student["phone"];
         student["name"] = "Sakib";
         student1.phone = 12542;
+        student1[phoneProNam] = 3253253252;
+        student1.games = "Cricket";
         console.log(student);
         console.log(student1);
         console.log(studentNo);
